@@ -17,7 +17,6 @@
 ![5](screenshots/5.png)
 ### A) Permissions sets=`AdministratorAccess`
 - OU=`Application Unit` > username=`Application` > groupname=`AWS-Application-Admin`
-![1](screenshots/1.png)
 - OU=`Security Unit` > username=`Security` > groupname=`AWS-Security-Admin`
 ![9](screenshots/9.png)
 ### B) Permissions sets=`SecurityAudit`
@@ -25,7 +24,7 @@
 ![2](screenshots/2.png)
 ---
 ![8](screenshots/8.png)
-- => after login by username=`Logging` (get PW by workaround way: click `Forgot PW`), at Dashboard can NOT access full services like the others!
+- lastly, after login by username=`Logging` (get PW by workaround way: click `Forgot PW`), at Dashboard can NOT access full services like the others!
 
 ## AWS SSO
 ![5](screenshots/5.png)
@@ -52,5 +51,5 @@
 - click `Logging > Management console`
 ![3](screenshots/3.png)
 - => can login SSO at username=`Logging` by `Super-User`. At top right corner: Federated user=`AWSReservedSSO_SecurityAudit_xxx`
-- At Dashboard can access full services like `Super-User`
+- at Dashboard can access full services like `Super-User`
 
